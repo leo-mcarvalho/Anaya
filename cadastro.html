@@ -10,7 +10,7 @@
     <title>Home</title>
 </head>
 
-<body>
+<body class="text-white">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -33,60 +33,69 @@
     </header>
 
     <main>
-        <div>
+        <div class="container">
             <form action="#" method="POST">
                 <fieldset>
-                    <div>
-                        <div>
+                    <div class="row">
+                        <div class="col">
                             <label for="txt-email">Email:</label>
-                            <input type="email" name="email" id="txt-email">
-                            <img src="./img/cadastro e informacoes/logo email.svg" alt="ícone de email">
-                        </div>
-                        <div>
+                            <div>
+                                <img src="./img/cadastro e informacoes/logo email.svg" alt="ícone de email">
+                                <input class="form" type="email" name="email" id="txt-email">
+                            </div>
                             <label for="txt-nome">Nome Completo:</label>
-                            <input type="text" name="nome" id="txt-nome">
-                            <img src="./img/cadastro e informacoes/logo person.svg" alt="ícone de pessoa">
-                        </div>
-                        <div>
+                            <div>
+                                <img src="./img/cadastro e informacoes/logo person.svg" alt="ícone de pessoa">
+                                <input class="form" type="text" name="nome" id="txt-nome">
+                            </div>
                             <label for="txt-celular">Celular:</label>
-                            <input type="tel" name="celular" id="txt-celular">
-                            <img src="./img/cadastro e informacoes/logo celular.svg" alt="ícone de celular">
-                        </div>
-                        <div>
+                            <div>
+                                <img src="./img/cadastro e informacoes/logo celular.svg" alt="ícone de celular">
+                                <input class="form" type="tel" name="celular" id="txt-celular">
+                            </div>
                             <label for="txt-senha">Senha:</label>
-                            <input type="password" name="senha" id="txt-senha">
-                            <img src="./img/cadastro e informacoes/logo chave.svg" alt="ícone de uma chave">
+                            <div>
+                                <img src="./img/cadastro e informacoes/logo chave.svg" alt="ícone de uma chave">
+                                <input class="form" type="password" name="senha" id="txt-senha">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <label for="data-input">Data de Nascimento:</label>
+                            <div class="col-5">
+                                <input class="form" type="date" placeholder="dd/MM/yyyy" id="data-input">
+                            </div>
+                            <label for="txt-cpf">CPF:</label>
+                            <div class="col-5">
+                                <input class="form" type="number" name="cpf" id="txt-cpf">
+                            </div>
+                            <label for="txt-telefone">Telefone:</label>
+                            <div class="col-5">
+                                <input class="form" type="number" name="senha" id="txt-telefone">
+                            </div>
+                            <label for="txt-confirma-senha">Confirmar senha:</label>
+                            <div class="col-5">
+                                <input class="form" type="password" name="senha" id="txt-confirma-senha">
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <div class="form-group row">
-                            <label for="example-date-input" class="col-2 col-form-label">Date</label>
-                            <div class="col-10">
-                                <input class="form-control" type="date" value="dd/MM/yyyy" id="example-date-input">
-                            </div>
-                            <div>
-                                <label for="txt-cpf">CPF:</label>
-                                <input type="number" name="cpf" id="txt-cpf">
-                            </div>
-                            <div>
-                                <label for="txt-telefone">Telefone:</label>
-                                <input type="number" name="senha" id="txt-telefone">
-                            </div>
-                            <div>
-                                <label for="txt-confirma-senha">Confirmar senha:</label>
-                                <input type="password" name="senha" id="txt-confirma-senha">
-                            </div>
-                        </div>
-                        <button type="submit">Cadastrar</button>
+                    <button class="text-white btn-lg p-3 m-5 bd-highlight botao" type="submit">Cadastrar</button>
                 </fieldset>
             </form>
         </div>
     </main>
-    <footer>
-        <p>&copy;2021. Criado por</p>
-        <img src="./img/unknown 1.svg" alt="logo Unknown">
-        <img src="./img/Facebook icon.svg" alt="logo facebook">
-        <img src="./img/instagram icon.svg" alt="logo instagram">
+    <footer class="container pt-4 my-md-5 pt-md-5 border-top py-5 fixed-bottom">
+        <div class="row">
+            <p class="col">&copy;2021. Criado por</p>
+            <div class="col">
+                <img src="./img/unknown 1.svg" alt="logo Unknown">
+            </div>
+            <div class="col">
+                <img src="./img/Facebook icon.svg" alt="logo facebook">
+            </div>
+            <div class="col">
+                <img src="./img/instagram icon.svg" alt="logo instagram">
+            </div>
+        </div>
     </footer>
 </body>
 
