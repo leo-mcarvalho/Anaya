@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lato&family=Merienda:wght@700&family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lato&family=Merienda:wght@700&family=Montserrat:wght@500&family=Poppins&display=swapdisplay=swap");
 
 body {
     background-image: url(../img/imgs/conquistas.jpg);
@@ -52,4 +52,13 @@ form img {
 
 .formLogin {
     margin-top: 15vh;
+}
+
+.ajustaCol {
+    margin: 20px 0 1vh 12vw;
+}
+
+.ajustaCada {
+    margin-top: 20vh;
+    margin-left: 0;
 }
