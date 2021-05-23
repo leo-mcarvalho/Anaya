@@ -7,7 +7,8 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <title>Home</title>
+
+    <title>Cadastro</title>
 </head>
 
 <body class="text-white">
@@ -33,55 +34,110 @@
     </header>
 
     <main>
-        <div class="container">
-            <form action="#" method="POST">
-                <fieldset>
-                    <div class="row">
-                        <div class="col">
-                            <label for="txt-email">Email:</label>
-                            <div>
-                                <img src="./img/cadastro e informacoes/logo email.svg" alt="ícone de email">
-                                <input class="form" type="email" name="email" id="txt-email">
+        <h1 class="txtH1 display-1 text-center mt-5">Crie sua conta</h1>
+        <form class="needs-validation" novalidate action="#" method="POST">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-2"></div>
+                    <div class="col-12 col-sm-12 col-md-5  ">
+                        <label class="ms-5 ps-4 txtMini fs-5 mt-5 form-label" for="validationCustom01">Email:</label>
+                        <div>
+                            <img src=" ./img/cadastro e informacoes/logo email.svg" alt="ícone de email">
+                            <input class="form" type="email" name="email" id="validationCustom01" required>
+                            <div class="valid-feedback">
+                                Parece bom!
                             </div>
-                            <label for="txt-nome">Nome Completo:</label>
-                            <div>
-                                <img src="./img/cadastro e informacoes/logo person.svg" alt="ícone de pessoa">
-                                <input class="form" type="text" name="nome" id="txt-nome">
-                            </div>
-                            <label for="txt-celular">Celular:</label>
-                            <div>
-                                <img src="./img/cadastro e informacoes/logo celular.svg" alt="ícone de celular">
-                                <input class="form" type="tel" name="celular" id="txt-celular">
-                            </div>
-                            <label for="txt-senha">Senha:</label>
-                            <div>
-                                <img src="./img/cadastro e informacoes/logo chave.svg" alt="ícone de uma chave">
-                                <input class="form" type="password" name="senha" id="txt-senha">
+                            <div class="invalid-feedback">
+                                Insira um email válido.
                             </div>
                         </div>
-                        <div class="col">
-                            <label for="data-input">Data de Nascimento:</label>
-                            <div class="col-5">
-                                <input class="form" type="date" placeholder="dd/MM/yyyy" id="data-input">
+                        <label class="ms-5 ps-4 txtMini fs-5 form-label" for="validationCustom02">Nome Completo:</label>
+                        <div>
+                            <img src="./img/cadastro e informacoes/logo person.svg" alt="ícone de pessoa">
+                            <input class="form" type="text" name="nome" id="validationCustom02" required>
+                            <div class="valid-feedback">
+                                Parece bom!
                             </div>
-                            <label for="txt-cpf">CPF:</label>
-                            <div class="col-5">
-                                <input class="form" type="number" name="cpf" id="txt-cpf">
+                            <div class="invalid-feedback">
+                                Insira um nome válido.
                             </div>
-                            <label for="txt-telefone">Telefone:</label>
-                            <div class="col-5">
-                                <input class="form" type="number" name="senha" id="txt-telefone">
+                        </div>
+                        <label class="ms-5 ps-4 txtMini fs-5 form-label" for="validationCustom03">Celular:</label>
+                        <div>
+                            <img src="./img/cadastro e informacoes/logo celular.svg" alt="ícone de celular">
+                            <input class="form" type="tel" name="celular" id="validationCustom03" required>
+                            <div class="valid-feedback">
+                                Parece bom!
                             </div>
-                            <label for="txt-confirma-senha">Confirmar senha:</label>
-                            <div class="col-5">
-                                <input class="form" type="password" name="senha" id="txt-confirma-senha">
+                            <div class="invalid-feedback">
+                                Insira um número de celular válido.
+                            </div>
+                        </div>
+                        <label class="ms-5 ps-4 txtMini fs-5 form-label" for="validationCustomSenha">Senha:</label>
+                        <div>
+                            <img src="./img/cadastro e informacoes/logo chave.svg" alt="ícone de uma chave">
+                            <input class="form" type="password" name="senha" id="validationCustomSenha" required>
+                            <div class="valid-feedback">
+                                Parece bom!
+                            </div>
+                            <div class="invalid-feedback">
+                                Insira uma senha válida com no mínimo 8 caracteres, contendo letras e números.
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-5">
+                        <label class="txtMini fs-5 mt-5 form-label" for="validationCustomDate">Data de
+                            Nascimento:</label>
+                        <div>
+                            <input class="form" type="date" placeholder=" dd/MM/yyyy" id="validationCustomDate"
+                                required>
+                            <div class="valid-feedback">
+                                Parece bom!
+                            </div>
+                            <div class="invalid-feedback">
+                                Insira uma data válida.
+                            </div>
+                        </div>
+                        <label class="txtMini fs-5 form-label" for="validationCustom04">CPF:</label>
+                        <div>
+                            <input class="form" type="text" name="cpf" id="validationCustom04" required>
+                            <div class="valid-feedback">
+                                Parece bom!
+                            </div>
+                            <div class="invalid-feedback">
+                                Insira um CPF válido.
+                            </div>
+                        </div>
+                        <label class="txtMini fs-5 form-label" for="validationCustom05">Telefone:</label>
+                        <div>
+                            <input class="form" type="number" name="telefone" id="validationCustom05">
+                            <div class="valid-feedback">
+                                Parece bom!
+                            </div>
+                            <div class="invalid-feedback">
+                                Insira um telefone válido.
+                            </div>
+                        </div>
+                        <label class="txtMini fs-5 form-label" for="validationCustom06">Confirmar senha:</label>
+                        <div>
+                            <input class="form" type="password" name="senha" id="validationCustom06" required>
+                            <div class="valid-feedback">
+                                Parece bom!
+                            </div>
+                            <div class="invalid-feedback">
+                                As senhas não são iguais.
                             </div>
                         </div>
                     </div>
-                    <button class="text-white btn-lg p-3 m-5 bd-highlight botao" type="submit">Cadastrar</button>
-                </fieldset>
-            </form>
-        </div>
+                    <div class="col-1"></div>
+                </div>
+                <div class="text-center">
+                    <button class="text-white btn-lg p-3 m-5 bd-highlight botao w-25" type="submit">Cadastrar</button>
+                </div>
+            </div>
+        </form>
+
     </main>
     <footer class="container pt-4 my-md-5 pt-md-5 border-top py-5 fixed-bottom">
         <div class="row">
@@ -97,6 +153,7 @@
             </div>
         </div>
     </footer>
+    <script src="./javascript/script.js"></script>
 </body>
 
 </html>
