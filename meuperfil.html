@@ -10,7 +10,7 @@
     <title>Home</title>
 </head>
 
-<body>
+<body class="text-white">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -33,45 +33,62 @@
     </header>
 
     <main>
-        <h1>Meu Perfil</h1>
-        <section>
-            <h2>Progresso</h2>
-            <img src="./img/meu perfil/progressBar.svg" alt="barra de progresso do usuário no jogo">
-            <div>
-                <p>7</p>
-                <p>Horas de jogo</p>
-            </div>
-            <div>
-                <p>54</p>
-                <p>Escolhas Realizadas</p>
-            </div>
-            <div>
-                <p>9</p>
-                <p>Conquistas Desbloqueadas</p>
-            </div>
-        </section>
+        <h1 class="txtH1 text-center m-5 display-1">Meu Perfil</h1>
+        <div class="container">
+            <div class="row">
+                <section class="col-4 text-center">
+                    <h2 class="txtH1 fs-1 mb-5">Progresso</h2>
+                    <img class="w-30 mb-5" src="./img/meu perfil/progressBar.svg"
+                        alt="barra de progresso do usuário no jogo">
+                    <div>
+                        <p class="citacao display-3">7</p>
+                        <p class="citacao fs-1 mb-5">Horas de jogo</p>
+                    </div>
+                    <div>
+                        <p class="citacao display-3">54</p>
+                        <p class="citacao fs-1 mb-5">Escolhas Realizadas</p>
+                    </div>
+                    <div>
+                        <p class="citacao display-3">9</p>
+                        <p class="citacao fs-1 mb-5">Conquistas Desbloqueadas</p>
+                    </div>
+                </section>
 
-        <section>
-            <div>
-                <p>Email:</p>
-                <p>loremipsum@lorem.com</p>
+                <section class="col-12 col-md-8 ">
+                    <div>
+                        <p class="txtMini fs-4">Email:</p>
+                        <p class="txtMini fs-1">loremipsum@lorem.com</p>
+                    </div>
+                    <p class="txtP fs-3">Lorem ipsum dolor sit amet, dfhdhconsectetur adipiscing elit. m velit, euismod
+                        molestie ut nec
+                        eget in pulvinar viverra risus augue adiemus. m velit, euismod molestie blandit in enim velit,
+                        euismod molestie at si nibh tortor. m velit, euismod molestie ut ipsum habitant at vel Lorem
+                        ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus accusantium voluptas recusandae
+                        consectetur nulla modi itaque libero reiciendis, ducimus, animi at nobis nisi voluptates,
+                        officia nam adipisci deserunt! Pariatur, deserunt. </p>
+                    <h2 class="citacao mt-3 display-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                    <img class="img-fluid" src="./img/meu perfil/Gardening-3200x2400.png"
+                        alt="Desenho de uma menina jardineira">
+                </section>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus omnis consequatur cumque! Dolor vel,
-                incidunt qui esse praesentium nemo quaerat tempora laudantium rem illo illum provident quam sit aperiam
-                tenetur!</p>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
-            <img src="./img/meu perfil/anaya jardineira.svg" alt="Desenho de uma menina jardineira">
-        </section>
+        </div>
     </main>
-    <footer>
-        <img src="./img/barra footer.svg">
-        <img src="./img/instagram icon.svg" alt="logo instagram">
-        <img src="./img/Facebook icon.svg" alt="logo facebook">
-        <p>
-            &copy;2021. Criado por</p>
-        <img src="./img/unknown 1.svg" alt="logo Unknown">
-        <p>Topo</p>
-        <img src="./img/scroll top arrow.svg" alt="seta apontando para cima">
+    <footer class="container pt-4 my-md-5 pt-md-5 border-top py-5 footerP">
+        <div class="row justify-content-between">
+            <div class="col-12 col-md-4 col-lg-4">
+                <img class="d-block" src="./img/instagram icon.svg" alt="logo instagram">
+                <img src="./img/Facebook icon.svg" alt="logo facebook">
+            </div>
+            <div class="col-6 col-md-4 col-lg-4 text-white">
+                <p>
+                    &copy;2021. Criado por</p>
+                <img src="./img/unknown 1.svg" alt="logo Unknown">
+            </div>
+            <div class="col-6 col-md-4 col-lg-4 text-white">
+                <p>Topo</p>
+                <img src="./img/scroll top arrow.svg" alt="seta apontando para cima">
+            </div>
+        </div>
     </footer>
 
 </body>
