@@ -10,7 +10,7 @@
     <title>Home</title>
 </head>
 
-<body>
+<body class="text-white">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -34,41 +34,64 @@
 
     <main>
         <div>
-            <h1>Histórico de Escolhas</h1>
-            <h3>Capitulo 1:</h3>
-            <h2>Lorem ipsum</h2>
+            <h1 class="txtH1 text-center m-5">Histórico de Escolhas</h1>
+            <div class="text-center">
+                <h3 class="txtH1 d-inline-block">Capitulo 1:</h3>
+                <h2 class="txtH1 d-inline-block">Lorem ipsum</h2>
+            </div>
         </div>
-        <section>
-            <h2>Saves</h2>
-            <p>Save01</p>
-            <p>Save02</p>
-            <p>Save03</p>
-            <p>Save04</p>
-        </section>
 
-        <section>
-            <img src="./img/historico de escolhas/anaya bike.svg" alt="desenho de menina andando de bike">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id hic, inventore ad error, exercitationem
-                tempora illum ipsum dolores ut ullam suscipit, doloremque soluta odio veniam sit qui labore vel.
-                Repellendus.</p>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col col-md bordasP">
+                    <h2 class="txtH1 fs-1">Saves</h2>
+                    <p class="fs-3 txtMini">Save 01</p>
+                    <p class="fs-3 txtMini">Save 02</p>
+                    <p class="fs-3 txtMini">Save 03</p>
+                    <p class="fs-3 txtMini">Save 04</p>
+                </div>
 
-        <section>
-            <h2>Progresso</h2>
-            <img src="./img/meu perfil/progressBar.svg" alt="barra de progresso do usuário no jogo">
-        </section>
+                <div class="col-12 col-md">
+                    <img class="img-fluid m-3" src="./img/historico de escolhas/Biking-3200x2400.png"
+                        alt="desenho de menina andando de bike">
+                    <p class="txtP m-3 fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. m velit,
+                        euismod
+                        molestie
+                        ut nec eget in
+                        pulvinar viverra risus augue adiemus. m velit, euismod molestie blandit in enim velit, euismod
+                        molestie at si nibh tortor. m velit, euismod molestie ut ipsum habitant at vel. Cras mauris at
+                        sit phasellus wa leo arcu etiam nunc amet. Ut pulvinar viver rarisus augue duis adiemus.</p>
+                </div>
+
+                <section class="col col-md text-center ">
+                    <h2 class="txtH1 fs-1">Progresso</h2>
+                    <img class=" w-50" src="./img/meu perfil/progressBar.svg"
+                        alt="barra de progresso do usuário no jogo">
+                </section>
+            </div>
+        </div>
+        <h2 class="citacao text-center m-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
         <p>01/05</p>
     </main>
+
     <footer>
-        <img src="./img/barra footer.svg">
-        <img src="./img/instagram icon.svg" alt="logo instagram">
-        <img src="./img/Facebook icon.svg" alt="logo facebook">
-        <p>
-            &copy;2021. Criado por</p>
-        <img src="./img/unknown 1.svg" alt="logo Unknown">
-        <p>Topo</p>
-        <img src="./img/scroll top arrow.svg" alt="seta apontando para cima">
+        <div class="container pt-4 my-md-5 pt-md-5 border-top py-5 footerP">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img class="d-block" src="./img/instagram icon.svg" alt="logo instagram">
+                    <img src="./img/Facebook icon.svg" alt="logo facebook">
+                </div>
+                <div class="col-6 col-md-4 col-lg-4 text-white">
+                    <p>
+                        &copy;2021. Criado por</p>
+                    <img src="./img/unknown 1.svg" alt="logo Unknown">
+                </div>
+                <div class="col-6 col-md-4 col-lg-4 text-white">
+                    <p>Topo</p>
+                    <img src="./img/scroll top arrow.svg" alt="seta apontando para cima">
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>

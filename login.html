@@ -10,7 +10,7 @@
     <title>Home</title>
 </head>
 
-<body>
+<body class="text-white">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -33,28 +33,36 @@
     </header>
 
     <main>
-        <div>
+        <div class="d-flex justify-content-center align-items-center formLogin">
             <form action="#" method="POST">
+                <label class="ms-5 ps-4 txtMini fs-5" for="txt-email">Email:</label>
                 <div>
-                    <label for="txt-email">Email:</label>
-                    <input type="email" name="email" id="txt-email">
                     <img src="./img/cadastro e informacoes/logo email.svg" alt="ícone de email">
+                    <input class="form" type="email" name="email" id="txt-email">
                 </div>
+                <label class="ms-5 ps-4 txtMini fs-5" for="txt-senha">Senha:</label>
                 <div>
-                    <label for="txt-senha">Senha:</label>
-                    <input type="password" name="senha" id="txt-senha">
                     <img src="./img/cadastro e informacoes/logo chave.svg" alt="ícone de uma chave">
+                    <input class="form" type="password" name="senha" id="txt-senha">
                 </div>
-                <p>Esqueceu a senha?</p>
-                <button type="submit">Entrar</button>
+                <p class="ms-5 ps-4 txtMini">Esqueceu a senha?</p>
+                <button class="text-white btn-lg p-2 bd-highlight botao w-50" type="submit">Entrar</button>
             </form>
         </div>
     </main>
-    <footer>
-        <p>&copy;2021. Criado por</p>
-        <img src="./img/unknown 1.svg" alt="logo Unknown">
-        <img src="./img/Facebook icon.svg" alt="logo facebook">
-        <img src="./img/instagram icon.svg" alt="logo instagram">
+    <footer class="container pt-4 my-md-5 pt-md-5 border-top py-5 fixed-bottom">
+        <div class="row">
+            <p class="col">&copy;2021. Criado por</p>
+            <div class="col">
+                <img src="./img/unknown 1.svg" alt="logo Unknown">
+            </div>
+            <div class="col">
+                <img src="./img/Facebook icon.svg" alt="logo facebook">
+            </div>
+            <div class="col">
+                <img src="./img/instagram icon.svg" alt="logo instagram">
+            </div>
+        </div>
     </footer>
 </body>
 
