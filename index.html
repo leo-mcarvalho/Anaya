@@ -11,7 +11,7 @@
     <title>Home</title>
 </head>
 
-<body>
+<body class="content-home">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark mb-5">
             <!--  Show this only on mobile to medium screens  -->
@@ -33,7 +33,7 @@
                 </ul>
 
                 <!--   Show this only lg screens and up   -->
-                <a class="navbar-brand d-none d-lg-block txtH1 fs-1" href="#">Anaya</a>
+                <a class="navbar-brand d-none d-lg-block txtH1 fs-1" href="./index.html">Anaya</a>
 
                 <ul class="navbar-nav">
                     <li class="nav-item me-3">
@@ -44,10 +44,12 @@
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                 <li><a class="dropdown-item" href="./cadastro.html">Cadastro</a></li>
-                                <li><a class="dropdown-item" href="./informacoespessoais.html">Informações Pessoais</a>
+                                <li><a class="dropdown-item" href="./informacoespessoais.html">Informações
+                                        Pessoais</a>
                                 </li>
                                 <li><a class="dropdown-item" href="./conquistas.html">Conquistas</a></li>
-                                <li><a class="dropdown-item" href="./historicodeescolhas.html">Histórico de Escolhas</a>
+                                <li><a class="dropdown-item" href="./historicodeescolhas.html">Histórico de
+                                        Escolhas</a>
                                 </li>
                                 <li><a class="dropdown-item" href="./meuperfil.html">Meu perfil</a></li>
                             </ul>
@@ -84,8 +86,8 @@
         <div class="container">
             <section class="row">
                 <div class="col mt-5">
-                    <p class="citacao fs-2 text-white mt-5">
-                        “9.3% da população
+                    <p class="citacao fs-1 text-white mt-5">
+                        “9,3% da população
                         brasileira sofre de
                         transtorno de
                         ansiedade”.
@@ -110,9 +112,9 @@
             <section class="row">
                 <div class="images-transtornos mt-5 text-center">
                     <img class="mt-5 me-5" src="./img/home/transtorno1.svg" alt="desenho de rapaz ansioso">
-                    <img class="mt-5 me-5 ms-5" src="./img/home/transtorno2.svg" alt="desenho de moça deprimida">
+                    <img class="me-5 ms-5" src="./img/home/transtorno2.svg" alt="desenho de moça deprimida">
                     <img class="m-5" src="./img/home/transtorno3.svg" alt="desenho de moça bipolar">
-                    <img class="m-5" src="./img/home/transtorno4.svg" alt="desenho de rapaz esquizofrênico">
+                    <img class="mt-5 ms-5" src="./img/home/transtorno4.svg" alt="desenho de rapaz esquizofrênico">
                 </div>
             </section>
         </div>
@@ -131,13 +133,19 @@
             </div>
             <div class="col text-white ms-5 text-center">
                 <p class="ms-5">Topo</p>
-                <img class="ms-5" src="./img/scroll top arrow.svg" alt="seta apontando para cima">
+                <div class=" moveB">
+                    <button type="button" class="btn btn-link ms-5" id="btn-back-to-top">
+                        <img class="" src="./img/scroll top arrow.svg" alt="seta apontando para cima">
+                    </button>
+                </div>
             </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
+    <script src="./javascript/script.js"></script>
+
 </body>
 
 </html>

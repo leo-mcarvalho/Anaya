@@ -1,7 +1,75 @@
 @import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lato&family=Merienda:wght@700&family=Montserrat:wght@500&family=Poppins&display=swapdisplay=swap");
 
 body {
+    background-color: #78aac6;
+}
+
+.content-home {
+    background-image: url(../img/imgs/home.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-conquistas {
     background-image: url(../img/imgs/conquistas.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-cadastro {
+    background-image: url(../img/imgs/cadastro.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-game {
+    background-image: url(../img/imgs/game.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-historico {
+    background-image: url(../img/imgs/historicoEscolhas.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-login {
+    background-image: url(../img/imgs/login.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-perfil {
+    background-image: url(../img/imgs/meuPerfil.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-sobre {
+    background-image: url(../img/imgs/sobre.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-info {
+    background-image: url(../img/imgs/info.jpg);
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -24,6 +92,7 @@ body {
     background: linear-gradient(100deg, #a8c0ff 2%, #ffc2e2 98%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-style: none;
+    min-width: 40%;
 }
 
 .citacao {
@@ -61,4 +130,9 @@ form img {
 .ajustaCada {
     margin-top: 20vh;
     margin-left: 0;
+}
+
+.moveB {
+    margin-left: 6.5rem;
+    margin-right: 6.5rem;
 }

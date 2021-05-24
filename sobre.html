@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagem/svg" href="./img/iconSite.svg" />
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title>Home</title>
 </head>
 
-<body class="text-white">
+<body class="text-white content-sobre">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark mb-5">
             <!--  Show this only on mobile to medium screens  -->
@@ -32,7 +33,7 @@
                 </ul>
 
                 <!--   Show this only lg screens and up   -->
-                <a class="navbar-brand d-none d-lg-block txtH1 fs-1" href="#">Anaya</a>
+                <a class="navbar-brand d-none d-lg-block txtH1 fs-1" href="./index.html">Anaya</a>
 
                 <ul class="navbar-nav">
                     <li class="nav-item me-3">
@@ -64,7 +65,7 @@
 
         <div class="container">
             <div class="row">
-                <section class="col mt-5 me-5">
+                <section class="col  me-5">
                     <h1 class="mt-5 txtH1 text-center mb-4">Lorem Ipsum</h1>
                     <p class="txtP mt-3 fs-5">Lorem ipsum dolor sit amet, consectetu wdggret ywudwe dfgggadipiscing
                         elit.
@@ -75,8 +76,8 @@
                         Ut ipsum habitant at vel. Cras mauris at siddsfsf t fghxcphasellus wa leo arcu etiam nunc amet.
                         Ut
                         pulvinar viver rarisus augue duis adiemus.</p>
-                    <img class="img-fluid text-center" src="./img/sobre/imagem1.svg" alt="foto de um escritório">
-                    <h2 class="mt-3 mb-3 citacao fs-1">“Lorem ipsum dolor sit
+                    <img class="img-fluid text-center" src="./img/sobre/foto1.jpg" alt="foto de um escritório">
+                    <h2 class="mt-4 mb-3 citacao fs-1">“Lorem ipsum dolor sit
                         amet, consectetur
                         adipiscing elit. m velit”.
                     </h2>
@@ -86,8 +87,8 @@
                         Blandit in enim velit, euismod molestie at sit nibh tortor. m velit, euismod molestie.
                     </p>
                 </section>
-                <section class="col mt-5">
-                    <img class="img-fluid mt-5" src="./img/sobre/imagem2.svg" alt="foto de um escritório">
+                <section class="col ">
+                    <img class="img-fluid mt-5" src="./img/sobre/foto2.jpg" alt="foto de um escritório">
                     <p class="txtP fs-5 mt-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. m velit,
                         euismod
                         molestie
@@ -99,7 +100,7 @@
                         molestie m
                         velit, euismod molesti Od molestie at sit nibh tortor.
                         Ut nec eget in pulvinar viverra risus augue duis adiemus. m velit, euismod molestie.</p>
-                    <img class="img-fluid" src="./img/sobre/imagem3.svg" alt="foto de uma reunião">
+                    <img class="img-fluid" src="./img/sobre/foto3.jpg" alt="foto de uma reunião">
                 </section>
             </div>
         </div>
@@ -132,10 +133,15 @@
             </div>
             <div class="col text-white ms-5 text-center">
                 <p class="ms-5">Topo</p>
-                <img class="ms-5" src="./img/scroll top arrow.svg" alt="seta apontando para cima">
+                <div class=" moveB">
+                    <button type="button" class="btn btn-link ms-5" id="btn-back-to-top">
+                        <img class="" src="./img/scroll top arrow.svg" alt="seta apontando para cima">
+                    </button>
+                </div>
             </div>
         </div>
     </footer>
+    <script src="./javascript/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
