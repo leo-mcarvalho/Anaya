@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagem/svg" href="./img/iconSite.svg" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Home</title>
+</head>
+
+<body class="content-home">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark mb-5">
+            <!--  Show this only on mobile to medium screens  -->
+            <a class="navbar-brand d-lg-none txtH1 fs-1 ms-3" href="./index.html">Anaya</a>
+
+            <button class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--  Use flexbox utility classes to change how the child elements are justified  -->
+            <div class="collapse navbar-collapse justify-content-between" id="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link ms-5" href="./game.html">Jogar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sobre.html">Sobre</a>
+                    </li>
+                </ul>
+
+                <!--   Show this only lg screens and up   -->
+                <a class="navbar-brand d-none d-lg-block txtH1 fs-1" href="./index.html">Anaya</a>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item me-3">
+                        <div class="dropdown">
+                            <button class="text-white btn  bd-highlight botao dropdown-toggle" type="button"
+                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="./cadastro.html">Cadastro</a></li>
+                                <li><a class="dropdown-item" href="./informacoespessoais.html">Informações
+                                        Pessoais</a>
+                                </li>
+                                <li><a class="dropdown-item" href="./conquistas.html">Conquistas</a></li>
+                                <li><a class="dropdown-item" href="./historicodeescolhas.html">Histórico de
+                                        Escolhas</a>
+                                </li>
+                                <li><a class="dropdown-item" href="./meuperfil.html">Meu perfil</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-5" href="./login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="row">
+                <div class="col">
+                    <h1 class="display-3 p-2 bd-highlight text-white txtH1 text-center mt-5">Lorem ipsum</h1>
+                    <p class="p-2 bd-highlight fs-2 text-white txtP">Lorem, ipsum dolor sit amet wehnmf consectetur
+                        adipisicing
+                        elit.
+                        Totameg quos impedit, reprehenderit weynvf molestias, istinctio aperiam veniam, dicta atq
+                        ue in molestiae mollitiayay.</p>
+                    <div class="text-center">
+                        <button type="button" class=" text-white btn-lg p-2 bd-highlight botao min-vw-30">Jogue
+                            Agora</button>
+                    </div>
+                </div>
+                <div class="imgBall col">
+                    <img class="img-fluid mb-5 mt-5" src="./img/anayaBall.png" alt="foto de uma mulher negra">
+                </div>
+            </section>
+        </div>
+        <div class="container">
+            <section class="row">
+                <div class="col mt-5">
+                    <p class="citacao fs-1 text-white mt-5">
+                        “9,3% da população
+                        brasileira sofre de
+                        transtorno de
+                        ansiedade”.
+                        - OMS"
+                    </p>
+                </div>
+                <div class="col mt-5">
+                    <p class="text-white txtP fs-5 mt-5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Ut nec eget in pulvinar viverra risus augue duis adiemus.
+                        Blandit in enim velit, euismod molestie at sit nibh tortor.
+                        Ut ipsum habitant at vel. Cras mauris at sit phasellus wa
+                        leo arcu etiam nunc amet. Ut nec eget in pulvinar viver
+                        rarisus augue duis adiemus blandit in enim velit, euism.
+                        Od molestie at sit nibh tortor.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <section class="row">
+                <div class="images-transtornos mt-5 text-center">
+                    <img class="mt-5 me-5" src="./img/home/transtorno1.svg" alt="desenho de rapaz ansioso">
+                    <img class="me-5 ms-5" src="./img/home/transtorno2.svg" alt="desenho de moça deprimida">
+                    <img class="m-5" src="./img/home/transtorno3.svg" alt="desenho de moça bipolar">
+                    <img class="mt-5 ms-5" src="./img/home/transtorno4.svg" alt="desenho de rapaz esquizofrênico">
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="container pt-4 my-md-5 pt-md-5 border-top py-5 footerP">
+        <div class="row justify-content-between">
+            <div class="col ms-5">
+                <a href="#"><img class="d-block mb-3 ms-5" src="./img/instagram icon.svg" alt="logo instagram"></a>
+                <a href="#"><img class="ms-5" src="./img/Facebook icon.svg" alt="logo facebook"></a>
+            </div>
+            <div class="col text-white text-center me-5">
+                <p class="mb-5">
+                    &copy;2021. Criado por</p>
+                <img src="./img/unknown 1.svg" alt="logo Unknown">
+            </div>
+            <div class="col text-white ms-5 text-center">
+                <p class="ms-5">Topo</p>
+                <div class=" moveB">
+                    <button type="button" class="btn btn-link ms-5" id="btn-back-to-top">
+                        <img class="" src="./img/scroll top arrow.svg" alt="seta apontando para cima">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="./javascript/script.js"></script>
+
+</body>
+
+</html>

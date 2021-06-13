@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagem/svg" href="./img/iconSite.svg" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Home</title>
+</head>
+
+<body class="text-white content-perfil">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark mb-5">
+            <!--  Show this only on mobile to medium screens  -->
+            <a class="navbar-brand d-lg-none txtH1 fs-1 ms-3" href="./index.html">Anaya</a>
+
+            <button class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--  Use flexbox utility classes to change how the child elements are justified  -->
+            <div class="collapse navbar-collapse justify-content-between" id="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link ms-5" href="./game.html">Jogar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sobre.html">Sobre</a>
+                    </li>
+                </ul>
+
+                <!--   Show this only lg screens and up   -->
+                <a class="navbar-brand d-none d-lg-block txtH1 fs-1" href="./index.html">Anaya</a>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item me-3">
+                        <div class="dropdown">
+                            <button class="text-white btn  bd-highlight botao dropdown-toggle" type="button"
+                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="./cadastro.html">Cadastro</a></li>
+                                <li><a class="dropdown-item" href="./informacoespessoais.html">Informações Pessoais</a>
+                                </li>
+                                <li><a class="dropdown-item" href="./conquistas.html">Conquistas</a></li>
+                                <li><a class="dropdown-item" href="./historicodeescolhas.html">Histórico de Escolhas</a>
+                                </li>
+                                <li><a class="dropdown-item" href="./meuperfil.html">Meu perfil</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-5" href="./login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <h1 class="txtH1 text-center m-5 display-1">Meu Perfil</h1>
+        <div class="container">
+            <div class="row">
+                <section class="col-4 text-center">
+                    <h2 class="txtH1 fs-1 mb-5">Progresso</h2>
+                    <img class="w-30 mb-5" src="./img/meu perfil/progressBar.svg"
+                        alt="barra de progresso do usuário no jogo">
+                    <div>
+                        <p class="citacao display-3">7</p>
+                        <p class="citacao fs-1 mb-5">Horas de jogo</p>
+                    </div>
+                    <div>
+                        <p class="citacao display-3">54</p>
+                        <p class="citacao fs-1 mb-5">Escolhas Realizadas</p>
+                    </div>
+                    <div>
+                        <p class="citacao display-3">9</p>
+                        <p class="citacao fs-1 mb-5">Conquistas Desbloqueadas</p>
+                    </div>
+                </section>
+
+                <section class="col-12 col-md-8 ">
+                    <div>
+                        <p class="txtMini fs-4 m-0 p-0">Email:</p>
+                        <p class="txtMini fs-1">loremipsum@lorem.com</p>
+                    </div>
+                    <p class="txtP fs-3">Lorem ipsum dolor sit amet, dfhdhconsectetur adipiscing elit. m velit, euismod
+                        molestie ut nec
+                        eget in pulvinar viverra risus augue adiemus. m velit, euismod molestie blandit in enim velit,
+                        euismod molestie at si nibh tortor. m velit, euismod molestie ut ipsum habitant at vel Lorem
+                        ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus accusantium voluptas recusandae
+                        consectetur nulla modi itaque libero reiciendis, ducimus, animi at nobis nisi voluptates,
+                        officia nam adipisci deserunt! Pariatur, deserunt. </p>
+                    <h2 class="citacao mt-3 display-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                    <img class="img-fluid" src="./img/meu perfil/Gardening-3200x2400.png"
+                        alt="Desenho de uma menina jardineira">
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="container pt-4 my-md-5 pt-md-5 border-top py-5 footerP">
+        <div class="row justify-content-between">
+            <div class="col ms-5">
+                <a href="#"><img class="d-block mb-3 ms-5" src="./img/instagram icon.svg" alt="logo instagram"></a>
+                <a href="#"><img class="ms-5" src="./img/Facebook icon.svg" alt="logo facebook"></a>
+            </div>
+            <div class="col text-white text-center me-5">
+                <p class="mb-5">
+                    &copy;2021. Criado por</p>
+                <img src="./img/unknown 1.svg" alt="logo Unknown">
+            </div>
+            <div class="col text-white ms-5 text-center">
+                <p class="ms-5">Topo</p>
+                <div class=" moveB">
+                    <button type="button" class="btn btn-link ms-5" id="btn-back-to-top">
+                        <img class="" src="./img/scroll top arrow.svg" alt="seta apontando para cima">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./javascript/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
